@@ -31,13 +31,20 @@ int main(int argc, char *argv[])
    perror("lstat ERROR");
    exit(3);
   }
-  if (S_ISREG(stat_buf.st_mode)) str = "regular";
+  if (S_ISREG(stat_buf.st_mode))
+  {
+    //printf(str, "regular %c", direntp->d_reclen);
+    //str="regular";
+    str = malloc(12*sizeof(char));
+    sprintf(str,"regular %d", direntp->d_reclen);
+
+  }
   else if (S_ISDIR(stat_buf.st_mode)) str = "directory";
   else str = "other";
-  printf("%-25s - %s\n", direntp->d_name, str);
+  printf("%ld %-35s - %s\n", direntp->d_ino,direntp->d_name, str);
+
  }
 
  closedir(dirp);
  exit(0);
 }
-

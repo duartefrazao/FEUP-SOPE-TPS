@@ -1,0 +1,9 @@
+Faltam fazer
+	1.c)
+	
+Dúvidas
+	Qual é o objetivo da 4.b)?
+	Na 5 
+		Era que as flags alteravam o modo como abrem o ficheiro, sendo que a a) tem de o criar certo?
+		O que significa a NOTA
+	
