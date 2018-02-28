@@ -1,0 +1,5 @@
+1.a)
+	Processo pai: 4995
+	Processo filho: 4996
+	Tipo de comunicação:
+	Direção: Pai->filho

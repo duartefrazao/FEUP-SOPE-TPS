@@ -1,0 +1,1 @@
+Fica em buffer( e será copiado para o processo filho, a não ser que seja dado um flush ou apareça o /n que dá um flush automático)

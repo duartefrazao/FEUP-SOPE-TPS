@@ -1,0 +1,3 @@
+Primeiro nota-se que apenas o pai(+) está a dar prints, só depois é que o filho entra no ciclo for e começa também.
+
+Em relação ao final os resultados dependem, o mais comum é o filho terminar por ultimo (-), no entanto se o processador usar vários núcleos pode chegar a terminar primeiro o filho e o pai ficar a dar prints, ou até terminar o pai(normal) e depois voltar o primt e só no final terminar o filho.
